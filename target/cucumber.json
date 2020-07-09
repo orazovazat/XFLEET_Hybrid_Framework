@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T22:10:00.627Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4475693621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Log in as a store manager",
+        "description": "",
+        "id": "user-should-be-able-to-login;log-in-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 204359276,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1064184103,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26401754958,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in as store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_store_manager()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2766648158,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies that \"Dashboard\" page name is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VY1-75"
+          },
+          {
+            "name": "@storemanager"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to login",
+    "description": "",
+    "id": "user-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login/Login.feature",
+    "tags": [
+      {
+        "name": "@VY1-75",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
