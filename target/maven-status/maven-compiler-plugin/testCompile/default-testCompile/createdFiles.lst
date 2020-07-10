@@ -1,0 +1,15 @@
+xfleet/utilities/BasePage.class
+xfleet/utilities/Driver.class
+xfleet/tests/cucumber/step_definitions/LoginStepDefinitions.class
+xfleet/pages/fleet/VehiclesPage.class
+xfleet/tests/cucumber/step_definitions/Hook.class
+xfleet/utilities/ConfigurationReader.class
+xfleet/pages/dashboards/DashboardPage.class
+xfleet/utilities/BrowserUtils$1.class
+xfleet/pages/dashboards/ManageDashboards.class
+xfleet/pages/activities/CallsPage.class
+xfleet/utilities/BrowserUtils.class
+xfleet/pages/login_navigation/LoginPage.class
+xfleet/pages/activities/CalendarEventsPage.class
+xfleet/tests/cucumber/runners/CukesRunner.class
+xfleet/utilities/Pages.class
